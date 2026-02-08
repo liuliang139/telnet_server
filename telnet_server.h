@@ -32,7 +32,7 @@
 #define TELNET_MAX_CLIENTS 5           // 最大客户端数量
 #define TELNET_BUFFER_SIZE 1024         // 缓冲区大小
 #define TELNET_IDLE_TIMEOUT 600         // 空闲超时时间（秒）- 10分钟
-#define TELNET_DEFAULT_PORT 8899          // 默认端口号
+#define TELNET_DEFAULT_PORT 9000          // 默认端口号
 
 // Telnet命令定义
 #define TELNET_IAC  255          // 解释为命令

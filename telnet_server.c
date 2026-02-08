@@ -8,14 +8,6 @@
 
 #include "telnet_server.h"
 
-// 全局变量，用于信号处理
-// static volatile sig_atomic_t signal_received = 0;
-
-// 信号处理函数
-// static void signal_handler(int sig) {
-//     signal_received = sig;
-// }
-
 
 // 创建服务器实例
 telnet_server_t *telnet_server_init(int port) 
